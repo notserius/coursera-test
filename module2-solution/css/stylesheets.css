@@ -20,49 +20,35 @@ p {
 
 #container {
   position: relative;
+  overflow: hidden;
 }
 
- 
-#p1 {
+h2 {
+  border: 2px solid black;
+  margin: 10px;
+  font-size: 1em;
+  font-family: Arial, Helvetica, serif;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#one {
   background-color: #885599;
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-weight: bold;
-  height: 40px;
-  width: 120px;
-  padding: 10px;
-  text-align: center;
-  font-family: Arial, Helvetica, serif;
-  overflow: hidden;
 }
 
-#p2 {
+#two {
   background-color: #899743;
-  color: white;
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-weight: bold;
-  height: 40px;
-  width: 120px;
-  padding: 10px;
-  text-align: center;
-  font-family: Arial, Helvetica, serif;
-  overflow: hidden;
 }
-#p3 {
- background-color: #dd0044;
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-weight: bold;
-  height: 40px;
-  width: 120px;
-  padding: 10px;
-  text-align: center;
-  font-family: Arial, Helvetica, serif;
-  overflow: hidden;
+
+#three {
+  background-color: #dd0044;
 }
 
 .row {
